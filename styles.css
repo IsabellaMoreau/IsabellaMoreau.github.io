@@ -109,12 +109,12 @@ font-family: 'Georgia', serif;
     padding: 2.5px;
   }
   a:link{
-    color:var(--ITA);
+    color:var(--backgound_1);
     text-decoration:none;
 }
 
 .name a:link{
-  color:var(--ITA);
+  color:var(--backgound_1);
   text-decoration:none;
 }
 
