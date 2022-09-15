@@ -112,13 +112,14 @@ font-family: 'Nova Cut', cursive;
   a{
     padding: 2.5px;
   }
+
   a:link{
     color:var(--backgound_1);
     text-decoration:none;
 }
 
 .name a:link{
-  color:var(--backgound_1);
+  color:var(--highlight);
   text-decoration:none;
 }
 
