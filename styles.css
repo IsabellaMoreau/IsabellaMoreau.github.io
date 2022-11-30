@@ -33,12 +33,23 @@ body, html {
   display: block;
 }
 
-img {
+.desc{
+text-align: center;
+}
+
+
+
+.poster {
   width: 50vw;
+}
+
+img {
+  width: 100vw;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  padding-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 p { color: var(--text);
@@ -58,6 +69,13 @@ padding-right: 5%;
 
 }
 
+.splash {
+  overflow: hidden;
+  margin: 0px;
+  background-image: url('images/alex_lane/alex_10.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
   h1{
     font-family: 'Nova Cut', cursive;
@@ -79,7 +97,10 @@ padding-top: 60px;
 
 }
 
-
+::selection {
+  background-color: var(--highlight);;
+  color: #fff;
+}
 
 
   .contents {
