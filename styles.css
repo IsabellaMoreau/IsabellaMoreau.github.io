@@ -91,7 +91,23 @@ padding-top: 60px;
 }
 
 ::selection {
-  background-color: var(--highlight);;
+  background-color: var(--highlight);
+  color: #fff;
+}
+::-moz-selection {
+  background-color: var(--highlight);
+  color: #fff;
+}
+::-o-selection {
+  background-color: var(--highlight);
+  color: #fff;
+}
+::-ms-selection {
+  background-color: var(--highlight);
+  color: #fff;
+}
+::-webkit-selection {
+  background-color: var(--highlight);
   color: #fff;
 }
 
